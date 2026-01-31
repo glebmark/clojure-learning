@@ -33,3 +33,15 @@
 (if false
   "That won't be returned")
 ; => nil
+
+(nil? 1)
+
+(nil? nil)
+
+(= 1 2)
+; => false
+;
+(or (= 0 1) (= "yes" "no"))
+
+(def failed-protagonist-names
+["Larry Potter" "Doreen the Explorer" "The Incredible Bulk"])
